@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mangomolo_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="tS4-6U-4Kf">
+                                <rect key="frame" x="56.666666666666657" y="363.66666666666669" width="280" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="LDp-VU-5a5"/>
+                                    <constraint firstAttribute="height" constant="125" id="j4J-WE-vVY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="CustomNavyBlue"/>
+                        <constraints>
+                            <constraint firstItem="tS4-6U-4Kf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8gB-uR-Kfe"/>
+                            <constraint firstItem="tS4-6U-4Kf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Tf8-PM-ndA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mangomolo_Logo" width="500" height="500"/>
+        <namedColor name="CustomNavyBlue">
+            <color red="0.15686274509803921" green="0.23529411764705882" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

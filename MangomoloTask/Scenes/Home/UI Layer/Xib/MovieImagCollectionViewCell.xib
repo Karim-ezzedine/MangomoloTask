@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieImagCollectionViewCell" customModule="MangomoloTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="187"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZTj-Mm-iJf">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="187"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZTj-Mm-iJf" secondAttribute="trailing" id="39O-qG-Na2"/>
+                <constraint firstItem="ZTj-Mm-iJf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AYA-r0-c0b"/>
+                <constraint firstItem="ZTj-Mm-iJf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AyZ-Tb-w0y"/>
+                <constraint firstAttribute="bottom" secondItem="ZTj-Mm-iJf" secondAttribute="bottom" id="dIf-r5-hzF"/>
+            </constraints>
+            <size key="customSize" width="150" height="187"/>
+            <connections>
+                <outlet property="movieImageView" destination="ZTj-Mm-iJf" id="Vrg-IJ-jGu"/>
+            </connections>
+            <point key="canvasLocation" x="-58.015267175572518" y="68.661971830985919"/>
+        </collectionViewCell>
+    </objects>
+</document>
